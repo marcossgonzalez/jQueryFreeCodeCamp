@@ -8,18 +8,19 @@ na linha a seguir.
 
 Seu navegador executará qualquer JavaScript dentro de um elemento de script, incluindo 
 jQuery.-->
-<head>
-    <script src="jquery-3.7.1.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <link
     rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-</head>
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 <script>
     $(document).ready(function() {
-      $("button").addClass("animated bounce");
-      $(".well").addClass("animated shake");
-      $("#target3").addClass("animated fadeOut");
+        $("button").addClass("animated")
+        $(".btn").addClass("shake")
+        $("#target1").addClass("btn-primary")
+      //$("button").addClass("animated bounce");
+      //$(".well").addClass("animated shake");
+      //$("#target3").addClass("animated fadeOut");
     //target your button element with the id target3 by using the $("#target3") selector.
     //Note that, just like with CSS declarations, you type a # before the id's name.
     });
