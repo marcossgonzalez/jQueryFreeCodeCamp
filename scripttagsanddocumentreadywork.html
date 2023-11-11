@@ -27,10 +27,19 @@ jQuery.-->
         //$("#target6").removeClass("btn-default");
         //$("#target5").removeClass("btn-default");
         $("#target1").css("color", "red");
-      $("button").addClass("animated bounce");
-      $(".well").addClass("animated shake");
-      $("#target3").addClass("animated fadeOut");
-      $("button").removeClass("btn-default");
+        $("#target4").html("<em>#target4</em>");
+        //$("#target1").prop("disabled", true);
+        //A consulta possui uma função chamada .prop()
+        //que permite ajustar as propriedades dos elementos.
+        //Veja como você desativaria todos os botões:
+        //$("button").prop("disabled", true);
+        //$("button").addClass("animated bounce");
+        //$(".well").addClass("animated shake");
+        //$("#target3").addClass("animated fadeOut");
+        //$("button").removeClass("btn-default");
+        /*jQuery possui uma função chamada '.html()' que permite adicionar tags HTML e texto 
+        dentro de um elemento. Qualquer conteúdo anteriormente dentro do elemento será 
+        completamente substituído pelo conteúdo que você fornece usando esta função.*/
     //target your button element with the id target3 by using the $("#target3") selector.
     //Note that, just like with CSS declarations, you type a # before the id's name.
     });
