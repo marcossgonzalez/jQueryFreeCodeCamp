@@ -38,6 +38,11 @@ jQuery.-->
         $("#target1").parent().css("background-color", "red");
         //jQuery possui uma função chamada 'children()' que permite acessar os filhos de qualquer elemento selecionado.
         $("#right-well").children().css("color", "orange");
+        //jQuery usa seletores CSS para direcionar elementos. O seletor CSS target:nth-child(n) permite que você 
+        //selecione todos os enésimos elementos com a classe de destino ou tipo de elemento.
+        $(".target:nth-child(2)").addClass("animated bounce");
+        //Você também pode direcionar elementos com base em suas posições usando os seletores :odd ou :even.
+        $(".target:even").addClass("animated shake");
         //$("#target1").prop("disabled", true);
         //A consulta possui uma função chamada .prop()
         //que permite ajustar as propriedades dos elementos.
