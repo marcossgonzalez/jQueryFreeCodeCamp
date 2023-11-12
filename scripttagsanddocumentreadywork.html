@@ -30,6 +30,13 @@ jQuery.-->
         //$("#target4").html("<em>#target4</em>");
         //jQuery tem uma função chamada .remove() que remove um elemento HTML.
         $("#target4").remove();
+        //jQuery possui uma função chamada appendTo() que elementos HTML para anexá-los a outro elemento.
+        $("#target2").appendTo("#right-well");
+        //jQuery possui uma função chamada clone() que faz uma cópia de um elemento.
+        $("#target5").clone().appendTo("#left-well");
+        //jQuery tem uma função chamada 'parent()' que permite acessar o pai de qualquer elemento selecionado.
+        $("#target1").parent().css("background-color", "red");
+        //
         //$("#target1").prop("disabled", true);
         //A consulta possui uma função chamada .prop()
         //que permite ajustar as propriedades dos elementos.
